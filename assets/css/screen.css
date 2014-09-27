@@ -31,7 +31,7 @@ h1,
 }
 a,
 a:visited {
-  color: #1dbb90;
+  color: #33cc99;
   text-decoration: none;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
@@ -56,7 +56,7 @@ li {
 }
 pre {
   font-family: "Consolas", Courier, monospace;
-  color: #7e7e7e;
+  color: #828e8f;
   font-size: 1em;
   line-height: 1.2em;
   padding: 1em;
@@ -71,8 +71,8 @@ pre {
 p code {
   font-family: "Consolas", Courier, monospace;
   font-size: 0.9em;
-  color: #7e7e7e;
-  background-color: #f3f3f3;
+  color: #828e8f;
+  background-color: #edefef;
   padding: 2px 4px;
   line-height: 1.2em;
 }
@@ -268,7 +268,7 @@ h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
 h1.blog-title a:hover {
-  color: #1dbb90;
+  color: #33cc99;
   text-decoration: none;
 }
 h2 {
@@ -398,7 +398,7 @@ a.archive-link {
   padding: 0.5em 0;
 }
 .pagination a {
-  color: #1dbb90;
+  color: #33cc99;
 }
 .older-posts,
 .newer-posts {
@@ -443,7 +443,7 @@ a.archive-link {
   /* Hide GitHub attribution */
 }
 .gist .gist-file .gist-meta a:visited {
-  color: #1dbb90 !important;
+  color: #33cc99 !important;
 }
 .gist .gist-file .gist-data {
   background: #fdfdfd !important;

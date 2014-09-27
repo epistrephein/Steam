@@ -4,7 +4,7 @@ Steam is a minimal and responsive theme for [Ghost](http://ghost.org/) largely b
 
 ## Installation
 
-Just clone the repository in the themes folder of Ghost and change to Steam in the Settings pane of your blog.
+Just clone the repository in the themes folder of Ghost and choose Steam in the Settings pane of your blog.
 
 ## License
 

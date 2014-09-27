@@ -21,7 +21,6 @@
 <body class="{{body_class}}">
 
     <header id="site-head">
-        {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
         {{!> header-description}}
@@ -34,14 +33,14 @@
         <div class="inner">
             {{!> footer-description}}
             <section>
-                <a href="http://twitter.com/epistrephein" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>
-                <a href="https://github.com/epistrephein" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>
+                <!-- <a href="http://twitter.com/username" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a> -->
+                <!-- <a href="https://github.com/username" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a> -->
                 <a href="{{@blog.url}}/rss/" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
             </section>
             <br>
-            <section>Recklessly scribbled by <a href="mailto:tommasobarbato+blog@gmail.com">Tommaso Barbato</a></section>
+            <!-- <section>Recklessly scribbled by <a href="mailto:authorname@provider.com">Author Name</a></section> -->
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
-            <section>Vapor theme for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by epistrephein</section>
         </div>
     </footer>
 
