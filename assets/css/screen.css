@@ -3,7 +3,7 @@
 /* === Core Styles === */
 body {
   background-color: #ffffff;
-  color: #758283; /* darker color */
+  color: #596364; /* darker color */
   font-size: 15px;
   font-weight: 100;
   line-height: 1.6em;
@@ -56,7 +56,7 @@ li {
 }
 pre {
   font-family: Menlo, "Consolas", Courier, monospace;
-  color: #828e8f;
+  color: #596364;
   font-size: 1em;
   line-height: 1.2em;
   padding: 1em;
@@ -66,13 +66,13 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  background-color: #edefef;
+  background-color: #f7f7f7;
 }
 code {
   font-family: Menlo, "Consolas", Courier, monospace;
   font-size: 0.85em;
-  color: #828e8f;
-  background-color: #edefef;
+  color: #596364;
+  background-color: #f7f7f7;
   padding: 2px 4px;
   line-height: 1.2em;
 }
@@ -393,7 +393,7 @@ a.archive-link {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  color: #758283;
+  color: #596364;
   text-align: center;
   padding: 0.5em 0;
 }
@@ -606,7 +606,7 @@ section.post-content li {
 
 a.excerptlink,
 a.backtotoptext {
-  color: #758283;
+  color: #596364;
   text-decoration: none;
 }
 
