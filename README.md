@@ -8,6 +8,9 @@ Just clone the repository in the `/content/themes` folder of Ghost and choose St
 
     $ git clone https://github.com/epistrephein/Steam.git
 
+## Screenshot
+![Steam theme]https://s3-eu-west-1.amazonaws.com/s3.epistrephe.in/steamtheme-post-screenshot.png
+
 ## License
 
 Steam is open source and released under the MIT License, feel free to contribute.
