@@ -11,8 +11,11 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.min.css"}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/normalize.min.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/screen.css"}}" />
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+    <link rel="stylesheet" href="{{asset "css/github.css"}}" />
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
 
@@ -46,8 +49,9 @@
 
     {{ghost_foot}}
 
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/smooth-scroll.min.js"}}"></script>
+    <script src="{{asset "js/index.js"}}"></script>
+    <script src="{{asset "js/smooth-scroll.min.js"}}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
 
     <script>
         smoothScroll.init({
@@ -57,6 +61,7 @@
             offset: 125,
         });
     </script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>
