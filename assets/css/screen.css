@@ -55,7 +55,7 @@ li {
   padding-left: 0.8em;
 }
 pre {
-  font-family: "Consolas", Courier, monospace;
+  font-family: Menlo, "Consolas", Courier, monospace;
   color: #828e8f;
   font-size: 1em;
   line-height: 1.2em;
@@ -66,11 +66,11 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #edefef;
 }
-p code {
-  font-family: "Consolas", Courier, monospace;
-  font-size: 0.9em;
+code {
+  font-family: Menlo, "Consolas", Courier, monospace;
+  font-size: 0.85em;
   color: #828e8f;
   background-color: #edefef;
   padding: 2px 4px;
