@@ -26,21 +26,19 @@
     <header id="site-head">
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
-        {{!> header-description}}
-        {{!> menu}}
     </header>
 
     {{{body}}}
 
     <footer class="site-footer">
         <div class="inner">
-            {{!> footer-description}}
             <section>
                 <!-- <a href="http://twitter.com/username" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a> -->
                 <!-- <a href="https://github.com/username" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a> -->
                 <a href="{{@blog.url}}/rss/" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
             </section>
             <br>
+            {{!> footer-description}}
             <section>A blog by <a href="mailto:authorname@provider.com">Author Name</a></section>
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
             <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by epistrephein</section>
