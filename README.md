@@ -7,10 +7,13 @@ Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely 
 See *Steam* live [here](http://epistrephe.in/steam/).
 
 ## Installation
-
-Just clone the repository in the `/content/themes` folder of Ghost and choose Steam in the Settings pane of your blog.
+#### Git
+Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
     $ git clone https://github.com/epistrephein/Steam.git
+
+#### Zip
+Download the [latest release](https://github.com/epistrephein/Steam/releases) of Steam and unzip it in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
 ## License
 
