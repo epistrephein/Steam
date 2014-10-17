@@ -246,6 +246,7 @@ blockquote p {
 }
 .tags {
   font-size: 16px;
+  margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
 div.authorimage {
@@ -593,7 +594,7 @@ section.post-content li {
   padding-right: 6px;
 }
 
-.backtotop {
+p.backtotop {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
