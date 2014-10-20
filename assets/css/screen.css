@@ -152,7 +152,7 @@ h1.blog-subtitle {
   font-size: 26px;
   line-height: 32px;
   margin-top: -8px;
-  margin-bottom: 65px;
+  margin-bottom: 55px;
   margin-left: 1px;
   padding: 0;
 }
@@ -246,8 +246,8 @@ blockquote p {
 }
 .tags {
   font-size: 16px;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
+  margin-top: 3.8em;
+  margin-bottom: 0.5em;
 }
 div.authorimage {
   width: 70px;
@@ -259,6 +259,9 @@ div.authorimage {
   margin-right: 10px;
   float: left;
 }
+h1.post-title {
+  margin-top: 55px;
+}
 h1.post-title a,
 h1.blog-title a {
   color: #151515;
@@ -269,7 +272,7 @@ h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
 h1.blog-title a:hover {
-  color: #33cc99;
+  color: #178b6b;
   text-decoration: none;
 }
 h2 {
@@ -389,7 +392,7 @@ a.archive-link {
 }
 .pagination {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 600px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
@@ -583,10 +586,6 @@ section.post-content ul {
 }
 section.post-content li {
   margin: 10px;
-}
-
-.pagination {
-  max-width: 450px;
 }
 
 .tags {
