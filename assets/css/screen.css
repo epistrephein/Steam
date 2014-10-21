@@ -241,12 +241,10 @@ blockquote p {
   font-size: 18px;
   font-weight: 300;
   margin-top: 0.3em;
-  margin-bottom: 1.2em;
   text-transform: uppercase;
 }
 .tags {
   font-size: 16px;
-  margin-top: 3.8em;
   margin-bottom: 0.5em;
 }
 div.authorimage {
@@ -639,4 +637,8 @@ hr {
 
 section.footer-social {
   margin-bottom: 25px;
+}
+
+section.post-content {
+  margin-bottom: 70px;
 }
