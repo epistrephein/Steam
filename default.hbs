@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
+    <meta name="description" content="{{meta_description}}">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="{{asset "css/normalize.min.css"}}" />
-    <link rel="stylesheet" href="{{asset "css/screen.css"}}" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/appletouchicon.png">
+
+    <link rel="stylesheet" href="{{asset "css/normalize.min.css"}}">
+    <link rel="stylesheet" href="{{asset "css/screen.css"}}">
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
-    <link rel="stylesheet" href="{{asset "css/github.css"}}" />
+    <link rel="stylesheet" href="{{asset "css/github.css"}}">
 
-    {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
+    {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
 
     {{ghost_head}}
 </head>
