@@ -28,17 +28,13 @@
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
     </header>
 
-    {{> menu}}
+    {{!> menu}}
     {{{body}}}
 
     <footer class="site-footer">
         <div class="inner">
-            <section>
-                {{> footer-social}}
-            </section>
-            <br>
-            {{!> footer-description}}
-            <section>A blog by <a href="mailto:authorname@provider.com">Author Name</a></section>
+            {{> footer-social}}
+            {{> footer-author}}
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
             <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by epistrephein</section>
         </div>

@@ -260,7 +260,7 @@ div.authorimage {
   float: left;
 }
 h1.post-title {
-  margin-top: 55px;
+  margin-top: 65px;
 }
 h1.post-title a,
 h1.blog-title a {
@@ -353,7 +353,7 @@ nav ul li a {
   padding: .5em 0;
 }
 nav.menu {
-  margin-bottom: 2.5em;
+  margin-bottom: 0.5em;
 }
 nav.menu li {
   margin: 0 .5em;
@@ -635,4 +635,8 @@ hr {
 
 .site-footer {
   color: #899596;
+}
+
+section.footer-social {
+  margin-bottom: 25px;
 }
