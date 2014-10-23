@@ -183,7 +183,11 @@ section.share {
   padding-top: 1em;
   text-align: right;
 }
-section.author h4,
+section.author h4 {
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 82px;
+}
 section.author p,
 section.share p {
   padding: 0;
@@ -212,9 +216,9 @@ section.share p.info {
   display: inline-block;
 }
 section.author p.bio {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 82px;
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 blockquote {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -254,7 +258,7 @@ div.authorimage {
   -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
-  margin-right: 10px;
+  margin-right: 17px;
   float: left;
 }
 h1.post-title {
@@ -316,8 +320,7 @@ footer section {
 }
 footer.post-footer {
   background: none;
-  border-top: 1px solid #ecf0f1;
-  margin-top: 1em;
+  margin-top: 1.3em;
 }
 /* === Navigation and Pagination === */
 nav {
