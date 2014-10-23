@@ -320,7 +320,8 @@ footer section {
 }
 footer.post-footer {
   background: none;
-  margin-top: 1.3em;
+  border-top: 1px solid #ecf0f1;
+  margin-top: 1em;
 }
 /* === Navigation and Pagination === */
 nav {
@@ -644,4 +645,8 @@ section.footer-social {
 
 section.post-content {
   margin-bottom: 60px;
+}
+
+section.bloginfo {
+  margin-bottom: 6px;
 }
