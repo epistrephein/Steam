@@ -1,5 +1,7 @@
 # Steam
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
+It features a clean style with single column layout and two colors, perfect for focusing on text.
+With customizable partials and some nice javascript enhancements, Steam is perfect for any kind of blog, whether it is about coding, short stories or photographs.
 
 ## Demo
 See *Steam* live [here](http://epistrephe.in/steam/).
@@ -21,7 +23,7 @@ Replace `{{!> menu}}` with `{{> menu}}` in `default.hbs`, then customize the fil
 Change the given `a href` addresses in `partials/footer-social.hbs` or replace the icons with the ones you prefer using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a Facebook icon add
 
     <a href="https://www.facebook.com/username" target="_blank" title="Facebook"><i class="fa fa-2x fa-fw fa-facebook"></i> <span class="hidden">Facebook</span></a>
-    
+
 If you don't want the social icons section, replace `{{> footer-social}}` with `{{!> footer-social}}` in `default.hbs`.
 
 #### Customize the blog signature
@@ -30,7 +32,7 @@ Replace the text, email address and author name in the file `partials/footer-aut
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
-#### Other customization
+#### Other customizations
 Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
 
     <script>
