@@ -53,9 +53,8 @@ Steam features also [highlight.js](https://highlightjs.org) for syntax highlight
 at the bottom of `default.hbs`.
 
 ## Caveats
-There's currently no support for **static pages**: Steam just renders them as a post, without showing them in the post list. If you're using the custom menu however, you may use the link of the static page as one of the element to redirect your audience to a specific kind of post. An update will come with different layout for static pages.
-
-**Author's page** is not yet supported: as for now, the author name only links to the custom website choosen in the settings.
+**Static pages** are currently under development.
+**Author pages** are not yet supported: as for now, the author name only links to the custom website choosen in the settings.
 
 ## License
 Steam is open source and released under the MIT License, feel free to contribute.
