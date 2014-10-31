@@ -1,6 +1,8 @@
 # Steam
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
+
 It features a clean style with single column layout and two colors, perfect for focusing on text.
+
 With customizable partials and some nice javascript enhancements, Steam is perfect for any kind of blog, whether it is about coding, short stories or photographs.
 
 ## Demo
