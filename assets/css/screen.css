@@ -31,14 +31,14 @@ h1,
 }
 a,
 a:visited {
-  color: #33cc99;
+  /*color: #33cc99;*/
   text-decoration: none;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
 a:focus,
 a:hover {
-  color: #178b6b;
+  /*color: #178b6b;*/
 }
 p,
 li,
@@ -274,7 +274,7 @@ h1.post-title a:focus,
 h1.post-title a:hover,
 h1.blog-title a:focus,
 h1.blog-title a:hover {
-  color: #178b6b;
+  /*color: #178b6b;*/
   text-decoration: none;
 }
 h2 {
@@ -404,7 +404,7 @@ a.archive-link {
   padding: 0.5em 0;
 }
 .pagination a {
-  color: #33cc99;
+  /*color: #33cc99;*/
 }
 .older-posts,
 .newer-posts {
@@ -428,7 +428,7 @@ a.archive-link {
 }
 .older-posts:hover,
 .newer-posts:hover {
-  color: #178b6b;
+  /*color: #178b6b;*/
   text-decoration: none;
 }
 /* === Extras === */
@@ -449,7 +449,7 @@ a.archive-link {
   /* Hide GitHub attribution */
 }
 .gist .gist-file .gist-meta a:visited {
-  color: #33cc99 !important;
+  /*color: #33cc99 !important;*/
 }
 .gist .gist-file .gist-data {
   background: #fdfdfd !important;
