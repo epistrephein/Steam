@@ -34,6 +34,9 @@ Replace the text, email address and author name in the file `partials/footer-aut
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
+### Custom favicon and apple-touch-icon
+If you want to customize the favicon and/or apple-touch-icon of your blog, replace `{{!> favicon-appletouchicon}}` with `{{> favicon-appletouchicon}}` in `default.hbs`, then place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/` and restart Ghost.
+
 #### Other customizations
 Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
 
