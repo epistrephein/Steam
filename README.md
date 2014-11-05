@@ -21,6 +21,11 @@ Download the [latest stable release](https://github.com/epistrephein/Steam/relea
 #### Activate a custom menu
 Replace `{{!> menu}}` with `{{> menu}}` in `default.hbs`, then customize the file `partials/menu.hbs` using the given template.
 
+#### Choose a theme color
+By default Steam uses a flat green theme color. To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available, e.g. orange, and replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
+
+To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` with the colors you prefer.
+
 #### Customize the social icons
 Change the given `a href` addresses in `partials/footer-social.hbs` or replace the icons with the ones you prefer using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a Facebook icon add
 
@@ -34,7 +39,7 @@ Replace the text, email address and author name in the file `partials/footer-aut
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
-#### Custom favicon and apple-touch-icon
+#### Custom favicon and apple-touch-icon (only development release)
 If you want to customize the favicon and/or apple-touch-icon of your blog, replace `{{!> favicon-appletouchicon}}` with `{{> favicon-appletouchicon}}` in `default.hbs`, then place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/` and restart Ghost.
 
 #### Other customizations
