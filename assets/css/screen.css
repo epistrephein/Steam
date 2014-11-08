@@ -152,7 +152,7 @@ h1.blog-subtitle {
   font-size: 26px;
   line-height: 32px;
   margin-top: -8px;
-  margin-bottom: 55px;
+  margin-bottom: 85px;
   margin-left: 1px;
   padding: 0;
 }
@@ -262,7 +262,7 @@ div.authorimage {
   float: left;
 }
 h1.post-title {
-  margin-top: 65px;
+  margin-top: 35px;
 }
 h1.post-title a,
 h1.blog-title a {

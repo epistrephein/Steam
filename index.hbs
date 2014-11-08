@@ -5,6 +5,9 @@
     {{#foreach posts}}
 
     <article class="preview">
+        {{#is "tag"}}
+            <p class="post-meta"> Post tagged <i class="fa fa-fw fa-tag"></i> {{tags}}</p>
+        {{/is}}
         <header>
             <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
             <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></div>
