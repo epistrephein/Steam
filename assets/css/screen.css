@@ -650,3 +650,8 @@ section.post-content {
 section.bloginfo {
   margin-bottom: 6px;
 }
+
+.tagged {
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
