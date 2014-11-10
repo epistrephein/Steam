@@ -1,13 +1,18 @@
 {{!< default}}
 
 <main class="content" role="main">
+    <article>
+    {{#is "tag"}}
+        <p class="post-meta tagged"> Posts tagged {{tags}}</p>
+    {{/is}}
+    {{#is "author"}}
+        <p class="post-meta"> Posts by {{author}}</p>
+    {{/is}}
+    </article>
 
     {{#foreach posts}}
 
     <article class="preview">
-        {{#is "tag"}}
-            <p class="post-meta tagged"> Posts tagged {{tags}}</p>
-        {{/is}}
         <header>
             <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
             <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></div>

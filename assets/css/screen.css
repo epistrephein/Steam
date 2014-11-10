@@ -185,7 +185,7 @@ section.share {
 }
 section.author h4 {
   margin: 0;
-  padding-top: 7px;
+  padding-top: 6px;
   padding-left: 82px;
 }
 section.author p,
@@ -196,7 +196,7 @@ section.share p {
 section.author h4 {
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 400;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 section.author p.attr,
 section.share p.info {
