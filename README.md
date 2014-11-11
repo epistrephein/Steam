@@ -1,9 +1,9 @@
 # Steam
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
-It features a clean style with single column layout and two colors, perfect for focusing on text.
+It features a clean and essential style with single column layout and two colors, perfect for focusing on text.
 
-With customizable partials and some nice javascript enhancements, Steam is perfect for any kind of blog, whether it is about coding, short stories or photographs.
+With customizable partials and some nice javascript enhancements, Steam is ideal for any kind of blog, whether it is about coding, short stories or photographs.
 
 ## Demo
 See *Steam* live [here](http://epistrephe.in/steam/).
@@ -40,7 +40,7 @@ Replace the text, email address and author name in the file `partials/footer-aut
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
 #### Custom favicon and apple-touch-icon
-If you want to customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/` and restart Ghost.
+To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
 
 #### Other customizations
 Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
