@@ -60,10 +60,5 @@ Steam features also [highlight.js](https://highlightjs.org) for syntax highlight
 
 at the bottom of `default.hbs`.
 
-## Caveats
-**Static pages** are currently under development.
-
-**Author pages** are not yet supported: as for now, the author name only links to the custom website choosen in the settings.
-
 ## License
 Steam is open source and released under the MIT License, feel free to contribute.
