@@ -180,7 +180,9 @@ section.share {
 section.share {
   margin-top: 1em;
   border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
   padding-top: 1em;
+  padding-bottom: 1em;
   text-align: right;
 }
 section.author h4 {
@@ -320,7 +322,7 @@ footer section {
 }
 footer.post-footer {
   background: none;
-  border-top: 1px solid #ecf0f1;
+  /*border-top: 1px solid #ecf0f1;*/
   margin-top: 1em;
 }
 /* === Navigation and Pagination === */
