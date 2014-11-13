@@ -36,6 +36,9 @@ If you don't want the social icons section, replace `{{> footer-social}}` with `
 #### Customize the blog signature
 Replace the text, email address and author name in the file `partials/footer-author.hbs`. To remove it, replace `{{> footer-author}}` with `{{!> footer-author}}` in `default.hbs`.
 
+#### Hide post author section
+If you don't want to show the author section (which is profile picture, name with link to website and bio) at the bottom of posts, replace `{{> post-author}}` with `{{!> post-author}}` in `post.hbs`.
+
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
