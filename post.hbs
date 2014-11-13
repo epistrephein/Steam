@@ -37,13 +37,7 @@
         </section>
 
         <footer class="post-footer">
-            {{#if author}}
-            <section class="author">
-                <div class="authorimage" style="background: url({{author.image}})"></div>
-                <h4>{{author}}</h4>
-                <p class="bio">{{author.bio}}</p>
-            </section>
-            {{/if}}
+            {{> post-author}}
         </footer>
 
         {{/post}}
