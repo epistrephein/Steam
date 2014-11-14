@@ -46,6 +46,7 @@ Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-fa
 To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
 
 #### Other customizations
+##### Smooth Scroll
 Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
 
     <script>
@@ -57,11 +58,29 @@ Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): th
         });
     </script>
 
+To use Smooth Scroll for footnotes, first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
+
+    <sup id="reference1"><a data-scroll href="#footnote1">1</a></sup>
+
+where `reference1` is the unique name of the footnote link, `footnote1` is the unique name of the footnote itself and `1` the number of the note. Don't forget to add `data-scroll` if you want to benefit of the Smooth Scroll functionality. Do this for every footnote link you want to add, increasing the number of each identifier.
+
+Next, at the end of the post insert
+
+    ---
+    <ol class="notes">
+    <li id="footnote1">Here is the notation that the sentence above leads up to. <a data-scroll href="#reference1">↩</a></li>
+    </ol>
+
+which is the actual body of the footnote and is linked to the link you add before. Make sure `footnote1` and `reference1` match the link that calls them. Insert as many `<li>` tags as your footnote links and don't forget to add `data-scroll` or Smooth Scroll won't work.
+
+##### highlight.js
 Steam features also [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line 
     
     <script>hljs.initHighlightingOnLoad();</script>
 
 at the bottom of `default.hbs`.
+
+The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
 ## License
 Steam is open source and released under the MIT License, feel free to contribute.
