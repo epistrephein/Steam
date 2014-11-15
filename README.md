@@ -22,7 +22,7 @@ Download the [latest stable release](https://github.com/epistrephein/Steam/relea
 Replace `{{!> menu}}` with `{{> menu}}` in `default.hbs`, then customize the file `partials/menu.hbs` using the given template.
 
 #### Choose a theme color
-By default Steam uses a flat green theme color. To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available, e.g. orange, and replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
+By default Steam uses a flat green theme color. To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
 
 To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` with the colors you prefer.
 
@@ -45,7 +45,7 @@ Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-fa
 #### Custom favicon and apple-touch-icon
 To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
 
-#### Other customizations
+#### JavaScript
 ##### Smooth Scroll
 Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
 
@@ -83,6 +83,6 @@ at the bottom of `default.hbs`.
 The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
 ## License
-Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) Copyright (c) 2013-2014 Seth Lilly.
+Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 Seth Lilly.
 
 Steam is open source and released under the MIT License, feel free to contribute.
