@@ -84,5 +84,4 @@ The css defining the colors is `assets/css/github.css`, which is a slighty modif
 
 ## License
 Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 Seth Lilly.
-
 Steam is open source and released under the MIT License, feel free to contribute.
