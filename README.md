@@ -24,7 +24,7 @@ Replace `{{!> menu}}` with `{{> menu}}` in `default.hbs`, then customize the fil
 #### Choose a theme color
 By default Steam uses a flat green theme color. To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
 
-To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` with the colors you prefer.
+To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` in `partials/theme-customcolor.hbs` with the colors you prefer.
 
 #### Customize the social icons
 Change the given `a href` addresses in `partials/footer-social.hbs` or replace the icons with the ones you prefer using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a Facebook icon add
@@ -74,8 +74,8 @@ Next, at the end of the post insert
 which is the actual body of the footnote and is linked to the link you add before. Make sure `footnote1` and `reference1` match the link that calls them. Insert as many `<li>` tags as your footnote links and don't forget to add `data-scroll` or Smooth Scroll won't work.
 
 ##### highlight.js
-Steam features also [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line 
-    
+Steam features also [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line
+
     <script>hljs.initHighlightingOnLoad();</script>
 
 at the bottom of `default.hbs`.
