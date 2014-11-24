@@ -5,7 +5,6 @@ It features a clean and essential style with single column layout and two colors
 
 With customizable partials and some nice javascript enhancements, Steam is ideal for any kind of blog, whether it is about coding, short stories or photographs.
 
-## Demo
 See *Steam* live [here](http://epistrephe.in/steam/).
 
 ## Installation
