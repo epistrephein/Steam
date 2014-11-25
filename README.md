@@ -40,6 +40,7 @@ If you don't want to show the author section (which is profile picture, name wit
 
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
+To enable Disqus comments, remember to add your actual Disqus ID in `partials/comments-disqus.hbs'.
 
 #### Custom favicon and apple-touch-icon
 To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
