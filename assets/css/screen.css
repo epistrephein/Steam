@@ -187,8 +187,8 @@ section.share {
 }
 section.author h4 {
   margin: 0;
-  padding-top: 7px;
-  padding-left: 82px;
+  padding-top: 4px;
+  padding-left: 99px;
 }
 section.author p,
 section.share p {
@@ -198,7 +198,7 @@ section.share p {
 section.author h4 {
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 400;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 section.author p.attr,
 section.share p.info {
@@ -219,7 +219,7 @@ section.share p.info {
 }
 section.author p.bio {
   font-size: 14px;
-  margin-left: 82px;
+  margin-left: 99px;
   line-height: 1.2em;
 }
 blockquote {
@@ -246,8 +246,8 @@ blockquote {
   margin-bottom: 0.5em;
 }
 div.authorimage {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   -webkit-background-size: cover !important;
   background-size: cover !important;
@@ -648,4 +648,15 @@ section.bloginfo {
 .tagged {
   margin-top: -10px;
   margin-bottom: -15px;
+}
+
+section.author .meta {
+  font-size: 12px;
+  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  color: #bbbbbb;
+  padding-top: 4px;
+}
+section.author .meta a {
+  font-size: 12px;
+  color: #bbbbbb;
 }

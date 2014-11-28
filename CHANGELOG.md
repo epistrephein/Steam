@@ -2,7 +2,8 @@
 
 * 1.3
     * **[New]**: togglable author section at the bottom of post
-    * **[New]**: font size reduced
+    * **[Improved]**: font size reduced
+    * **[Improved]**: redesigned post author footer
     * **[Fixed]**: the page title now displays the blog title and description in the home page and the post title in the post page
 * 1.2 – 2014-11-07
     * **[New]**: multiple theme colors + blank partial for custom color
