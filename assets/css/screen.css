@@ -634,7 +634,8 @@ hr {
 }
 
 section.footer-social {
-  margin-bottom: 25px;
+  margin-bottom: 23px;
+  font-size: 17px;
 }
 
 section.post-content {
