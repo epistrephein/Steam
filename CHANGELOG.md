@@ -1,10 +1,10 @@
 # Changelog
 
 * 1.3
-    * **[New]**: togglable author section at the bottom of post
-    * **[Improved]**: font size reduced
-    * **[Improved]**: redesigned post author footer
+    * **[New]**: redesigned look for the author section at the bottom of post (and also toggleable)
     * **[Fixed]**: the page title now displays the blog title and description in the home page and the post title in the post page
+    * **[Improved]**: font size reduced
+    * **[Improved]**: a few tweaks here and there
 * 1.2 – 2014-11-07
     * **[New]**: multiple theme colors + blank partial for custom color
     * **[New]**: customizable partial for favicon & apple-touch-icon
