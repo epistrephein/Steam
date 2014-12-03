@@ -231,6 +231,7 @@ blockquote {
   text-transform: uppercase;
   border-left: 0.4em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
+  padding-right: 2em;
   padding-left: 1em;
 }
 .post-meta {
@@ -571,8 +572,8 @@ blockquote p {
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 0.65em;
   font-weight: 300;
-  line-height: 1.5em;
-  font-style: normal;
+  line-height: 1.55em;
+  font-style: italic;
   text-transform: none;
   margin-bottom: 30px;
 }
