@@ -1,9 +1,7 @@
 # Steam
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
-It features a clean and essential style with single column layout and two colors, perfect for focusing on text.
-
-With customizable partials and some nice javascript enhancements, Steam is ideal for any kind of blog, whether it is about coding, short stories or photographs.
+It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
 See *Steam* live [here](http://epistrephe.in/steam/).
 
@@ -36,7 +34,7 @@ If you don't want the social icons section, replace `{{> footer-social}}` with `
 Replace the text, email address and author name in the file `partials/footer-author.hbs`. To remove it, replace `{{> footer-author}}` with `{{!> footer-author}}` in `default.hbs`.
 
 #### Hide post author section
-If you don't want to show the author section (which is profile picture, name with link to website and bio) at the bottom of posts, replace `{{> post-author}}` with `{{!> post-author}}` in `post.hbs`.
+If you don't want to show the author section (which is profile picture, bio, website and location) at the bottom of posts, replace `{{> post-author}}` with `{{!> post-author}}` in `post.hbs`.
 
 #### Activate the comments
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
