@@ -628,6 +628,9 @@ ol.notes > li {
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
+  border: 0;
+  height: 1px;
+  background-color: #888;
 }
 
 .site-footer {
