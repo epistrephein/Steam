@@ -272,12 +272,6 @@ h1.blog-title a:hover {
   /*color: #178b6b;*/
   text-decoration: none;
 }
-h2 {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  margin-top: 2em;
-  text-transform: uppercase;
-  font-weight: 300;
-}
 section.post-content img {
   display: block;
   margin: 0 auto;
@@ -548,9 +542,17 @@ table tfoot {
 
 
 /* === Custom Overrides === */
-h3 {
+section.post-content h2,
+section.post-content h3,
+section.post-content h4 {
   margin-top: 33px;
-  margin-bottom: -7px;
+  margin-bottom: -4px;
+}
+section.post-content h4 {
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 a, a:active, a:focus {
