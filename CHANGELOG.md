@@ -1,8 +1,8 @@
 # Changelog
 
-* 1.3
+* 1.3 – in development
     * **[New]**: redesigned look for the author section at the bottom of post (and also toggleable)
-    * **[Fixed]**: the page title now displays the blog title and description in the home page and the post title in the post page
+    * **[Fixed]**: <title> now displays the blog title and description in the home page and the post title in the post page
     * **[Improved]**: font size reduced
     * **[Improved]**: a few tweaks here and there
 * 1.2 – 2014-11-07
