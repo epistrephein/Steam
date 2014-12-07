@@ -32,6 +32,8 @@
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
 
+    {{!> google-analytics}}
+
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
@@ -42,6 +44,7 @@
     </header>
 
     {{!> menu}}
+
     {{{body}}}
 
     <footer class="site-footer">
