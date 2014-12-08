@@ -231,7 +231,7 @@ blockquote {
   text-transform: uppercase;
   border-left: 0.4em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
-  padding-right: 2em;
+  padding-right: 1.5em;
   padding-left: 1em;
 }
 .post-meta {
@@ -546,7 +546,7 @@ section.post-content h2,
 section.post-content h3,
 section.post-content h4 {
   margin-top: 33px;
-  margin-bottom: -4px;
+  margin-bottom: -6px;
 }
 section.post-content h4 {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
