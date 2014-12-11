@@ -42,7 +42,7 @@ Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-fa
 To enable Disqus comments, remember to add your actual Disqus ID in `partials/comments-disqus.hbs`.
 
 #### Activate Google Analytics
-After you created your Google Analytics account, change `{{!> google-analytics}}` to `{{> google-analytics}}` in `default.hbs` ensuring to replace `YOUR_TRACKING_CODE` with your actual tracking code.
+After you've created your Google Analytics account, change `{{!> google-analytics}}` to `{{> google-analytics}}` in `default.hbs`, ensuring to replace `YOUR_TRACKING_CODE` with your actual tracking code.
 
 #### Custom favicon and apple-touch-icon
 To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
