@@ -85,5 +85,5 @@ at the bottom of `default.hbs`.
 The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
 ## License
-Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 Seth Lilly.<br>
-Steam is open source and released under the MIT License, feel free to contribute.
+Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 [Seth Lilly](https://github.com/sethlilly/).<br>
+Steam is open source and released under the [MIT License](https://github.com/epistrephein/Steam/blob/master/LICENSE), feel free to contribute.
