@@ -3,7 +3,7 @@ Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely 
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
-See *Steam* live [here](http://epistrephe.in/steam/).
+See *Steam* live [here](https://steamthe.me).
 
 ## Installation
 #### Git - development release
