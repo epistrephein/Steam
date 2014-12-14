@@ -82,6 +82,18 @@ Steam features also [highlight.js](https://highlightjs.org) for syntax highlight
 
 at the bottom of `default.hbs`.
 
+You can force a code block into a specific language highlighting by appending the lang name, e.g.:
+
+    ```ruby
+    puts "Hello, World!"
+    ```
+
+If you want to suppress the highlighting for a particular code block, you can use `nohighlight`:
+
+    ```nohighlight
+    $ git clone https://github.com/epistrephein/Steam.git
+    ```
+
 The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
 ## License
