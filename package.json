@@ -1,7 +1,7 @@
 {
-  "name": "Steam",
-  "version": "1.3b",
+  "name": "Ghost-Steam",
+  "version": "1.0b",
   "description": "A clean and minimal theme for Ghost.",
-  "author": "Tommaso Barbato",
-  "homepage": "https://github.com/epistrephein/Steam"
+  "author": "Kevin Delfour",
+  "homepage": "https://github.com/kdelfour/ghost-steam-theme"
 }
