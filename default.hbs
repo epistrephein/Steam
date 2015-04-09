@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="{{asset "css/screen.min.css"}}">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
         <link rel="stylesheet" href="{{asset "css/github.min.css"}}">
+        <link rel="stylesheet" href="{{asset "css/stamp.css"}}">
     
         {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
     
@@ -31,7 +32,11 @@
     <body class="{{body_class}}">
     
         <header id="site-head">
-            <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <h1 class="blog-title">
+                {{#if @blog.logo}}
+                    <a class="stamp" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+                {{/if}}
+                <a href="{{@blog.url}}">{{@blog.title}}</a></h1>
             <h1 class="blog-subtitle">{{@blog.description}}</h1>
         </header>
     
