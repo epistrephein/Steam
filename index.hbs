@@ -7,7 +7,10 @@
     <article class="preview">
         <header>
             <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
-            <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></div>
+            <div class="post-meta">
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}, </time>
+                <a href="{{url}}#disqus_thread">Comments</a>
+            </div>
         </header>
         <section class="post-excerpt">
             <a class="excerptlink" href="{{url}}"><p>{{excerpt words="90"}}&hellip;</p></a>
