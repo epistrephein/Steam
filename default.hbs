@@ -1,77 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    {{#is "home"}}
-      <title>{{meta_title}} - {{meta_description}}</title>
-    {{else}}
-      <title>{{meta_title}}</title>
-    {{/is}}
-    <meta name="description" content="{{meta_description}}">
-    <meta name="apple-mobile-web-app-title" content="{{meta_title}}">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-    {{> favicon-appletouchicon}}
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
-
-    {{> theme-green}}
-    {{!> theme-blue}}
-    {{!> theme-red}}
-    {{!> theme-orange}}
-    {{!> theme-customcolor}}
-
-    <link rel="stylesheet" href="{{asset "css/screen.css"}}">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
-    <link rel="stylesheet" href="{{asset "css/github.css"}}">
-
-    {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
-
-    {{!> google-analytics}}
-
-    {{ghost_head}}
-</head>
-<body class="{{body_class}}">
-
-    <header id="site-head">
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-        <h1 class="blog-subtitle">{{@blog.description}}</h1>
-    </header>
-
-    {{!> menu}}
-
-    {{{body}}}
-
-    <footer class="site-footer">
-        <div class="inner">
-            {{> footer-social}}
-            {{> footer-author}}
-            <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
-            <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by Tommaso Barbato</section>
-        </div>
-    </footer>
-
-    {{ghost_foot}}
-
-    <script src="{{asset "js/index.js"}}"></script>
-    <script src="{{asset "js//bind-polyfill.min.js"}}"></script>
-    <script src="{{asset "js/smooth-scroll.min.js"}}"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
-
-    <script>
-        smoothScroll.init({
-            speed: 800,
-            easing: 'easeInOutCubic',
-            updateURL: false,
-            offset: 125,
-        });
-    </script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+        {{#is "home"}}
+          <title>{{meta_title}} - {{meta_description}}</title>
+        {{else}}
+          <title>{{meta_title}}</title>
+        {{/is}}
+        
+        <meta name="description" content="{{meta_description}}">
+        <meta name="apple-mobile-web-app-title" content="{{meta_title}}">
+    
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+        {{> favicon-appletouchicon}}
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
+        <link rel="stylesheet" href="{{asset "css/screen.min.css"}}">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+        <link rel="stylesheet" href="{{asset "css/github.min.css"}}">
+        <link rel="stylesheet" href="{{asset "css/stamp.css"}}">
+    
+        {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
+    
+        {{ghost_head}}
+    </head>
+    <body class="{{body_class}}">
+    
+        <header id="site-head">
+            <h1 class="blog-title">
+                {{#if @blog.logo}}
+                    <a class="stamp" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+                {{/if}}
+                <a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <h1 class="blog-subtitle">{{@blog.description}}</h1>
+        </header>
+    
+        {{navigation}}
+    
+        {{{body}}}
+    
+        <footer class="site-footer">
+            <div class="inner">
+                {{> footer-social}}
+                <section class="bloginfo">A blog by <a href="{{author.url}}">{{author}}</a></section>
+                <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
+                <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by Tommaso Barbato</section>
+            </div>
+        </footer>
+    
+        {{ghost_foot}}
+    
+        <script src="{{asset "js/index.js"}}"></script>
+        <script src="{{asset "js/bind-polyfill.min.js"}}"></script>
+        <script src="{{asset "js/smooth-scroll.min.js"}}"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+        
+    </body>
 </html>

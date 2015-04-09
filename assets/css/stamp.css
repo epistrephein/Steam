@@ -1,0 +1,47 @@
+.stamp {
+	width: 280px;
+	height: 180px;
+	display: inline-block;
+	padding: 10px;
+	background: white;
+	position: relative;
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+	/*The stamp cutout will be created using crisp radial gradients*/
+	background: radial-gradient(
+		transparent 0px, 
+		transparent 4px, 
+		white 4px,
+		white
+	);
+  
+	/*reducing the gradient size*/
+	background-size: 20px 20px;
+	/*Offset to move the holes to the edge*/
+	background-position: -10px -10px;
+	transform: rotate(-10deg);
+}
+.stamp:after {
+	content: '';
+	position: absolute;
+	/*We can shrink the pseudo element here to hide the shadow edges*/
+	left: 5px; top: 5px; right: 5px; bottom: 5px;
+	/*Shadow - doesn't look good because of the stamp cutout. We can still move this into another pseudo element behind the .stamp main element*/
+	
+  /*box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);*/
+	/*pushing it back*/
+	z-index: -1;
+}
+/*Some text*/
+.stamp:before {
+	content: 'CSS3';
+	position: absolute;
+	bottom: 0; left: 0;
+	font: bold 24px arial;
+	color: white;
+	opacity: 0.75;
+	line-height: 100%;
+	padding: 20px;
+}
+.stamp img {
+
+}
