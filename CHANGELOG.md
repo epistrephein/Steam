@@ -1,8 +1,11 @@
 # Changelog
 
-* 1.3 – in development
+* 1.3 – 2015-07-17
+    * **[New]**: added support for meta elements ([PR #4](https://github.com/epistrephein/Steam/pull/4))
+    * **[New]**: added support for tags page
     * **[New]**: redesigned look for the author section at the bottom of post (and also toggleable)
     * **[Fixed]**: `<title>` displays blog title and description in the home and post title in the post page
+    * **[Improved]**: moved menu partials to official ghost navigation ([PR #3](https://github.com/epistrephein/Steam/pull/3))
     * **[Improved]**: font size reduced
     * **[Improved]**: added Google Analytics partial for quick implementation
     * **[Improved]**: a few tweaks here and there
