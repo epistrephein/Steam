@@ -26,15 +26,14 @@
     {{!> theme-orange}}
     {{!> theme-customcolor}}
     
-    {{> meta}}
+    {{!> meta}}
+    {{!> google-analytics}}
 
     <link rel="stylesheet" href="{{asset "css/screen.css"}}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
     <link rel="stylesheet" href="{{asset "css/github.css"}}">
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
-
-    {{!> google-analytics}}
 
     {{ghost_head}}
 </head>
@@ -45,7 +44,7 @@
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
     </header>
 
-    {{navigation}}
+    {{!>navigation}}
 
     {{{body}}}
 

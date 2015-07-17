@@ -15,8 +15,8 @@ Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghos
 Download the [latest stable release](https://github.com/epistrephein/Steam/releases) of Steam and unzip it in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
 ## Customization
-#### Activate a custom menu
-Replace `{{!> menu}}` with `{{> menu}}` in `default.hbs`, then customize the file `partials/menu.hbs` using the given template.
+#### Activate the navigation menu
+Replace `{{!> navigation}}` with `{{navigation}}` in `default.hbs`, then customize your links in the Navigation settings.
 
 #### Choose a theme color
 By default Steam uses a flat green theme color. To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
@@ -40,6 +40,9 @@ If you don't want to show the author section (which is profile picture, bio, web
 Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
 
 To enable Disqus comments, remember to add your actual Disqus ID in `partials/comments-disqus.hbs`.
+
+### Add Twitter, Google Webmaster and Facebook meta
+Replace `{{!> meta}}` with `{{> meta}}` in `default.hbs`, then customize the content of `partials/meta.hbs`.
 
 #### Activate Google Analytics
 After you've created your Google Analytics account, change `{{!> google-analytics}}` to `{{> google-analytics}}` in `default.hbs`, ensuring to replace `YOUR_TRACKING_CODE` with your actual tracking code.
