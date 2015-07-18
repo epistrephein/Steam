@@ -63,7 +63,7 @@ Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): th
         });
     </script>
 
-To use Smooth Scroll for footnotes, first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
+To use Smooth Scroll for footnotes (like in this [example post](https://steamthe.me/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
 
     <sup id="reference1"><a data-scroll href="#footnote1">1</a></sup>
 
