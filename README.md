@@ -99,6 +99,9 @@ If you want to suppress the highlighting for a particular code block, you can us
 
 The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
+## Contributing
+Contributions to Steam are welcome and encouraged. Feel free to fork the repo and submit a pull request!
+
 ## License
 Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 [Seth Lilly](https://github.com/sethlilly/).<br>
 Steam is open source and released under the [MIT License](https://github.com/epistrephein/Steam/blob/master/LICENSE), feel free to contribute.
