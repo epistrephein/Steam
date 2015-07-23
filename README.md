@@ -3,7 +3,7 @@ Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely 
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
-See *Steam* live [here](https://steamthe.me).
+See a live demo of *Steam* [here](https://steamthe.me).
 
 ## Installation
 #### Git - development release
@@ -41,7 +41,7 @@ Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-fa
 
 To enable Disqus comments, remember to add your actual Disqus ID in `partials/comments-disqus.hbs`.
 
-### Add Twitter, Google Webmaster and Facebook meta
+#### Add Twitter, Google Webmaster and Facebook meta
 Replace `{{!> meta}}` with `{{> meta}}` in `default.hbs`, then customize the content of `partials/meta.hbs`.
 
 #### Activate Google Analytics
