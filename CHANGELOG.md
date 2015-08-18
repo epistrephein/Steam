@@ -1,6 +1,7 @@
 # Changelog
 
 * 1.3 – in development
+    * **[New]**: added support for tags page and author page
     * **[New]**: redesigned look for the author section at the bottom of post (and also toggleable)
     * **[Fixed]**: `<title>` displays blog title and description in the home and post title in the post page
     * **[Improved]**: font size reduced

@@ -1,0 +1,7 @@
+<nav class="menu" role="nav">
+    <ul>
+      {{#foreach navigation}}
+      <li role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+      {{/foreach}}
+    </ul>
+</nav>

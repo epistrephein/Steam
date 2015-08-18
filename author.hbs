@@ -1,0 +1,45 @@
+{{!< default}}
+
+<main class="content" role="main">
+
+    <section class="author-profile">
+        {{#author}}
+            <div class="author-heading">
+                {{#if image}}
+                    <img class="author-avatar" src="{{image}}" width="50" height="50" alt="{{name}}">
+                {{/if}}
+
+                <h1 class="author-name">{{name}}</h1>
+            </div>
+
+            <div class="author-meta">
+                <span><i class="fa fa-bar-chart-o"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
+                {{#if location}}<span><i class="fa fa-map-marker"></i>{{location}}</span>{{/if}}
+                {{#if website}}<span><i class="fa fa-link"></i><a href="{{website}}">{{website}}</a></span>{{/if}}
+                <span><i class="fa fa-rss-square"></i><a href="{{url}}rss/">{{name}}</a></span>
+            </div>
+
+            {{#if bio}}
+                <p class="author-bio">{{bio}}</p>
+            {{/if}}
+        {{/author}}
+    </section>
+
+    {{#foreach posts}}
+
+    <article class="preview">
+        <header>
+            <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
+            <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></div>
+        </header>
+        <section class="post-excerpt">
+            <a class="excerptlink" href="{{url}}"><p>{{excerpt words="90"}}&hellip;</p></a>
+            <p class="readmore"><a href="{{url}}">Keep reading <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i></a></p>
+        </section>
+    </article>
+
+    {{/foreach}}
+
+    {{pagination}}
+
+</main>
