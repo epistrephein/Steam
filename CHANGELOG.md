@@ -1,8 +1,8 @@
 # Changelog
 
 * 1.4 - in development
-    * **[Improved]**: updated [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) to latest version
     * **[Fixed]**: replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
+    * **[Improved]**: updated [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) to latest version
 * 1.3 – 2015-07-17
     * **[New]**: added support for meta elements ([PR #4](https://github.com/epistrephein/Steam/pull/4))
     * **[New]**: added support for tags page
