@@ -81,7 +81,7 @@ Next, at the end of the post insert
 which is the actual body of the footnote and is linked to the link you add before. Make sure `footnote1` and `reference1` match the link that calls them. Insert as many `<li>` tags as your footnote links and don't forget to add `data-scroll` or Smooth Scroll won't work.
 
 ##### highlight.js
-Steam features also [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line
+Steam also features [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line
 
     <script>hljs.initHighlightingOnLoad();</script>
 
