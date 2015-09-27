@@ -18,7 +18,7 @@
 
     {{> favicon-appletouchicon}}
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
 
     {{> theme-green}}
     {{!> theme-blue}}
@@ -30,7 +30,7 @@
     {{!> google-analytics}}
 
     <link rel="stylesheet" href="{{asset "css/screen.css"}}">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
     <link rel="stylesheet" href="{{asset "css/github.css"}}">
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
@@ -61,8 +61,9 @@
 
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="{{asset "js/index.js"}}"></script>
-    <script src="{{asset "js/smooth-scroll.min.js"}}"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/smooth-scroll/7.1.1/js/smooth-scroll.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
 
     <script>
         smoothScroll.init({
