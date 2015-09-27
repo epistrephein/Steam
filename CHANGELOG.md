@@ -2,7 +2,10 @@
 
 * 1.4 - in development
     * **[Fixed]**: replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
-    * **[Improved]**: updated [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) to v7.0.2
+    * **[Improved]**: updated [highlight.js](https://highlightjs.org) to v8.8.0
+    * **[Improved]**: updated github customized style for highlight.js
+    * **[Improved]**: updated [smooth-scroll](https://github.com/cferdinandi/smooth-scroll) to v7.1.1 and moved to CDN version
+    * **[Improved]**: updated [normalize.css](http://necolas.github.io/normalize.css/) to v3.0.3
     * **[Improved]**: explicitly included jQuery to comply to Ghost 0.7 (as noted in [#7](https://github.com/epistrephein/Steam/issues/7))
 * 1.3 – 2015-07-17
     * **[New]**: added support for meta elements ([PR #4](https://github.com/epistrephein/Steam/pull/4))
