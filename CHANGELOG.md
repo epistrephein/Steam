@@ -1,6 +1,6 @@
 # Changelog
 
-* 1.4 - in development
+* 1.4 - 2015-09-28
     * **[Fixed]**: replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
     * **[Improved]**: updated [highlight.js](https://highlightjs.org) to v8.8.0
     * **[Improved]**: updated github customized style for highlight.js
