@@ -242,6 +242,15 @@ blockquote {
   margin-top: 0.3em;
   text-transform: uppercase;
 }
+
+.author-thumb {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 9px;
+    border-radius: 100%;
+}
+
 .tags {
   font-size: 16px;
   margin-bottom: 0.5em;
@@ -292,13 +301,13 @@ img.userimage {
   float: left;
 }
 /* === Footer === */
-footer {
+footer.site-footer {
   background: rgba(0, 0, 0, 0.05);
   margin: 4em 0 0;
   padding: 2em 0;
   text-align: center;
 }
-footer section {
+footer.site-footer section {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -307,6 +316,7 @@ footer section {
   text-transform: uppercase;
   width: 90%;
 }
+
 footer.post-footer {
   background: none;
   /*border-top: 1px solid #ecf0f1;*/
