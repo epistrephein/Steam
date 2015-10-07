@@ -172,12 +172,11 @@ header.page-header {
 }
 /* === Body === */
 section.author,
-section.share {
-  width: 100%;
+footer.post-footer .share {
   text-align: left;
   text-transform: none;
 }
-section.share {
+footer.post-footer .share {
   margin-top: 1em;
   border-top: 1px solid #ecf0f1;
   border-bottom: 1px solid #ecf0f1;
@@ -188,10 +187,9 @@ section.share {
 section.author h4 {
   margin: 0;
   padding-top: 4px;
-  padding-left: 99px;
 }
 section.author p,
-section.share p {
+footer.post-footer .share p {
   padding: 0;
   margin: 0;
 }
@@ -201,20 +199,20 @@ section.author h4 {
   margin-bottom: 4px;
 }
 section.author p.attr,
-section.share p.info {
+footer.post-footer .share p.info {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 }
-section.share p.info.prompt {
+footer.post-footer .share p.info.prompt {
   top: -5px;
   position: relative;
 }
 section.author p.attr {
   margin-bottom: 2px;
 }
-section.share p.info {
+footer.post-footer .share p.info {
   display: inline-block;
 }
 section.author p.bio {
@@ -256,8 +254,8 @@ blockquote {
   margin-bottom: 0.5em;
 }
 div.authorimage {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   -webkit-background-size: cover !important;
   background-size: cover !important;
@@ -321,6 +319,10 @@ footer.post-footer {
   background: none;
   /*border-top: 1px solid #ecf0f1;*/
   margin-top: 1em;
+}
+
+footer.post-footer .post-tags {
+    float: right;
 }
 /* === Navigation and Pagination === */
 nav {
