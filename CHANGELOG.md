@@ -1,7 +1,7 @@
 # Changelog
 
 * 1.5 – in development
-    *
+    * **[Improved]**: moved from ico to png favicon
 * 1.4 – 2015-09-27
     * **[Fixed]**: replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
     * **[Improved]**: updated [highlight.js](https://highlightjs.org) to v8.8.0
