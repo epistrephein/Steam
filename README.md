@@ -1,11 +1,14 @@
-# Steam
+# Steam [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE) [![GitHub release](https://img.shields.io/github/release/epistrephein/steam.svg?style=flat)](https://github.com/epistrephein/Steam/releases)
+
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
 See a live demo of Steam [here](https://steamthe.me).
 
+
 ## Installation
+
 #### Git - development release
 Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
@@ -14,7 +17,9 @@ Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghos
 #### Zip - stable release
 Download the [latest stable release](https://github.com/epistrephein/Steam/releases) of Steam and unzip it in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
+
 ## Customization
+
 #### Activate the navigation menu
 Replace `{{!navigation}}` with `{{navigation}}` in `default.hbs`, then customize your links in the Navigation settings.
 
@@ -102,9 +107,11 @@ If you want to suppress the highlighting for a particular code block, you can us
 
 The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
 
+
 ## Contributing
 Contributions to Steam are welcome and encouraged.  
 Feel free to fork the repo and submit a pull request!
+
 
 ## License
 Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 [Seth Lilly](https://github.com/sethlilly/).<br>
