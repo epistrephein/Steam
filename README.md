@@ -1,4 +1,5 @@
-# Steam [![GitHub release](https://img.shields.io/badge/release-v1.4-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](https://steamthe.me) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE)
+# Steam
+[![GitHub release](https://img.shields.io/badge/release-v1.4-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](https://steamthe.me) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE)
 
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
@@ -55,7 +56,7 @@ Replace `{{!> meta}}` with `{{> meta}}` in `default.hbs`, then customize the con
 After you've created your Google Analytics account, change `{{!> google-analytics}}` to `{{> google-analytics}}` in `default.hbs`, ensuring to replace `YOUR_TRACKING_CODE` with your actual tracking code.
 
 #### Custom favicon and apple-touch-icon
-To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.ico` and 152x152 `appletouchicon.png` in `/assets/img/`.
+To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.png` and 152x152 `appletouchicon.png` in `/assets/img/`.
 
 #### JavaScript
 ##### Smooth Scroll
