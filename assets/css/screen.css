@@ -667,7 +667,7 @@ section.author .meta a {
   color: #bbbbbb;
 }
 
-h1.posts-tagged {
+h3.posts-tagged {
   margin: -17px auto -17px;
   text-align: center;
   max-width: 600px;
