@@ -3,6 +3,8 @@
 * 1.5b – in development
     * **[Improved]**: removed author meta indentation from post footer
     * **[Improved]**: moved from ico to png favicon
+    * **[Improved]**: moved custom fonts `@import` to `<link>` ([Vapor #43](https://github.com/sethlilly/Vapor/pull/43))
+    * **[Improved]**: updated external javascript and css to latest version
 * 1.4 – 2015-09-27
     * **[Fixed]**: replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
     * **[Improved]**: updated [highlight.js](https://highlightjs.org) to v8.8.0
