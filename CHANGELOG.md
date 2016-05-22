@@ -1,5 +1,6 @@
 # Changelog
-
+* 1.5.1 – in development
+    * **[Improved]**: updated font-awesome to latest version
 * 1.5.0 – 2016-05-22
     * **[Fixed]**: tags are no longer misaligned when navigation is active (fixes [#13](https://github.com/epistrephein/Steam/issues/13))
     * **[Improved]**: removed author meta indentation from post footer
