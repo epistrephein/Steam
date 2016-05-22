@@ -1,7 +1,9 @@
 # Changelog
 
-* 1.5b – in development
+* 1.5.0 – 2016-05-22
+    * **[Fixed]**: tags are no longer misaligned when navigation is active (fixes [#13](https://github.com/epistrephein/Steam/issues/13))
     * **[Improved]**: removed author meta indentation from post footer
+    * **[Improved]**: upscaled favicon to 180px
     * **[Improved]**: moved from ico to png favicon
     * **[Improved]**: moved custom fonts `@import` to `<link>` ([Vapor #43](https://github.com/sethlilly/Vapor/pull/43))
     * **[Improved]**: updated external javascript and css to latest version
