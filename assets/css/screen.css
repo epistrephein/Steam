@@ -314,9 +314,8 @@ footer.post-footer {
 nav {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
-  margin-bottom: 2em;
   text-align: center;
-  margin: 20px auto 2em auto;
+  margin: -1em auto 2em auto;
   max-width: 600px;
 }
 nav ul {
@@ -342,7 +341,7 @@ nav ul li a {
   padding: .5em 0;
 }
 nav.menu {
-  margin-bottom: 0.5em;
+  margin-bottom: 4em;
 }
 nav.menu li {
   margin: 0 .5em;
@@ -668,7 +667,7 @@ section.author .meta a {
 }
 
 h3.posts-tagged {
-  margin: -17px auto -17px;
+  margin: -0.5em auto 0;
   text-align: center;
   max-width: 600px;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
