@@ -1,5 +1,5 @@
 # Steam
-[![GitHub release](https://img.shields.io/badge/release-v1.4-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](http://dev.epistrephe.in/steam) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-v1.5.0-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](http://dev.epistrephe.in/steam) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE)
 
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
@@ -25,7 +25,7 @@ Download the [latest stable release](https://github.com/epistrephein/Steam/relea
 Replace `{{!navigation}}` with `{{navigation}}` in `default.hbs`, then customize your links in the Navigation settings.
 
 #### Choose a theme color
-By default Steam uses a flat green theme color.  
+By default Steam uses a flat green theme color.
 To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
 
 To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` in `partials/theme-customcolor.hbs` with the colors you prefer.
@@ -38,7 +38,7 @@ Change the given `a href` addresses in `partials/footer-social.hbs` or replace t
 If you don't want the social icons section, replace `{{> footer-social}}` with `{{!> footer-social}}` in `default.hbs`.
 
 #### Customize the blog signature
-Replace the text, email address and author name in the file `partials/footer-author.hbs`.  
+Replace the text, email address and author name in the file `partials/footer-author.hbs`.
 To remove it, replace `{{> footer-author}}` with `{{!> footer-author}}` in `default.hbs`.
 
 #### Hide post author section
@@ -70,7 +70,7 @@ Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): th
             offset: 125,
         });
     </script>
-  
+
 
 To use Smooth Scroll for footnotes (like in this [example post](http://dev.epistrephe.in/steam/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
 
@@ -110,7 +110,7 @@ The css defining the colors is `assets/css/github.css`, which is a slighty modif
 
 
 ## Contributing
-Contributions to Steam are welcome and encouraged.  
+Contributions to Steam are welcome and encouraged.
 Feel free to fork the repo and submit a pull request!
 
 
