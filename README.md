@@ -56,7 +56,7 @@ Replace `{{!> meta}}` with `{{> meta}}` in `default.hbs`, then customize the con
 After you've created your Google Analytics account, change `{{!> google-analytics}}` to `{{> google-analytics}}` in `default.hbs`, ensuring to replace `YOUR_TRACKING_CODE` with your actual tracking code.
 
 #### Custom favicon and apple-touch-icon
-To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.png` and 152x152 `appletouchicon.png` in `/assets/img/`.
+To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `favicon.png` and 180x180 `appletouchicon.png` in `/assets/img/`.
 
 #### JavaScript
 ##### Smooth Scroll
