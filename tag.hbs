@@ -1,11 +1,7 @@
 {{!< default}}
-
 <main class="content" role="main">
-
   <h3 class="posts-tagged"><i class="fa fa-fw fa-tag"></i> {{tag.name}}</h3>
-
     {{#foreach posts}}
-
     <article class="preview">
         <header>
             <h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
@@ -16,9 +12,6 @@
             <p class="readmore"><a href="{{url}}">Keep reading <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i></a></p>
         </section>
     </article>
-
     {{/foreach}}
-
     {{pagination}}
-
 </main>

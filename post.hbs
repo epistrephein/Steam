@@ -1,24 +1,17 @@
 {{!< default}}
-
 <main class="content" role="main">
-
     <article class="{{post_class}}">
-
         {{#post}}
-
         <header>
         <h1 class="post-title">{{{title}}}</h1>
         <div class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time></div>
         </header>
-
         <section class="post-content">
             {{content}}
         </section>
-
         <section class="post-tags">
             {{#if tags}}<div class="post-meta tags"><i class="fa fa-fw fa-tags"></i> {{tags}}</div>{{/if}}
         </section>
-
         <section class="share">
             <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
             <p class="info prompt">Share</p>
@@ -35,17 +28,12 @@
                 <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
             </a>
         </section>
-
         <footer class="post-footer">
             {{> post-author}}
         </footer>
-
         {{/post}}
-
         {{!> comments-disqus}}
         {{!> comments-facebook}}
         {{!> comments-google-plus}}
-
     </article>
-
 </main>
