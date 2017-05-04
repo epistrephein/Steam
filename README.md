@@ -115,5 +115,4 @@ Feel free to fork the repo and submit a pull request!
 
 
 ## License
-Steam is a fork of [Vapor](https://github.com/sethlilly/Vapor) - Copyright (c) 2013-2014 [Seth Lilly](https://github.com/sethlilly/).<br>
-Steam is open source and released under the [MIT License](https://github.com/epistrephein/Steam/blob/master/LICENSE), feel free to contribute.
+This project is released under the terms of the MIT license. See [LICENSE](LICENSE) for further details.
