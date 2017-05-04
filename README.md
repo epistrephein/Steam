@@ -1,5 +1,5 @@
 # Steam
-[![GitHub release](https://img.shields.io/badge/release-v1.5.0-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](http://dev.epistrephe.in/steam) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/epistrephein/Steam/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-v1.5.0-blue.svg?style=flat)](https://github.com/epistrephein/Steam/releases) [![Demo site](https://img.shields.io/badge/demo-online-brightgreen.svg?style=flat)](http://dev.epistrephe.in/steam)
 
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
