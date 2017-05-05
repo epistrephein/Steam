@@ -110,9 +110,8 @@ The css defining the colors is `assets/css/github.css`, which is a slighty modif
 
 
 ## Contributing
-Contributions to Steam are welcome and encouraged.
-Feel free to fork the repo and submit a pull request!
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/epistrephein/Steam.  
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 This project is released under the terms of the MIT license. See [LICENSE](LICENSE) for further details.
