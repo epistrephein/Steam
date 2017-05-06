@@ -24,9 +24,6 @@ Download the [latest stable release](https://github.com/epistrephein/Steam/relea
 
 ## Customization
 
-#### Activate the navigation menu
-Replace `{{!navigation}}` with `{{navigation}}` in `default.hbs`, then customize your links in the Navigation settings.
-
 #### Choose a theme color
 By default Steam uses a flat green theme color.
 To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
