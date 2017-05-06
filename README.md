@@ -15,6 +15,9 @@ Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghos
 
     $ git clone https://github.com/epistrephein/Steam.git
 
+<h3 align="center">~~WARNING!~~</h3>
+<h4 align="center">Major release in progress, expect things in master to be broken.<br>Use latest release for stable version.</h4>
+
 #### Zip - stable release
 Download the [latest stable release](https://github.com/epistrephein/Steam/releases) of Steam and unzip it in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
