@@ -1,14 +1,13 @@
 # Steam
 [![Steam release](https://img.shields.io/github/release/epistrephein/Steam.svg?style=flat-square)](https://github.com/epistrephein/Steam/releases)
 [![Ghost version](https://img.shields.io/badge/Ghost-v0.11.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
-[![Demo](https://img.shields.io/website-online-offline-brightgreen-red/http/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](http://dev.epistrephe.in/steam/)
+[![Demo](https://img.shields.io/website-online-offline-brightgreen-red/https/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](https://dev.epistrephe.in/steam/)
 
 Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
-See a live demo of Steam [here](http://dev.epistrephe.in/steam).
-
+See a live demo of Steam [here](https://dev.epistrephe.in/steam).
 
 ## Installation
 
@@ -74,7 +73,7 @@ Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): th
     </script>
 
 
-To use Smooth Scroll for footnotes (like in this [example post](http://dev.epistrephe.in/steam/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
+To use Smooth Scroll for footnotes (like in this [example post](https://dev.epistrephe.in/steam/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
 
     <sup id="reference1"><a data-scroll href="#footnote1">1</a></sup>
 
