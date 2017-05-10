@@ -1,6 +1,10 @@
 <section class="author">
-    <div class="authorimage" style="background: url({{author.image}})"></div>
-    <h4>{{author.name}}</h4>
+    {{#if author.image}}
+        <div class="authorimage" style="background: url({{author.image}})"></div>
+    {{else}}
+        <div class="authorimage" style="background: url({{asset "img/default-avatar.png"}})"></div>
+    {{/if}}
+    <h4 class="author-name">{{author.name}}</h4>
     <p class="bio">{{author.bio}}</p>
     <p class="meta">
       {{#if author.website}}<i class="fa fa-fw fa-globe"></i> <a href="{{author.website}}">{{author.website}}</a><br>{{/if}}
