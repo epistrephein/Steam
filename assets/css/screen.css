@@ -455,36 +455,7 @@ a.archive-link {
   visibility: hidden;
   display: none;
 }
-@font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.eot');
-  src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'), url('../fonts/icons.woff') format('woff'), url('../fonts/icons.ttf') format('truetype'), url('../fonts/icons.svg#icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-.icon-ghost,
-.icon-feed {
-  font-family: 'icons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  text-decoration: none;
-}
-.icon-ghost:before {
-  content: "\e000";
-}
-.icon-feed:before {
-  content: "\e001";
-}
-.icon-ghost {
-  font-size: 12px;
-  position: relative;
-  top: -1px;
-}
+
 /* Comments */
 #disqus_thread {
   color: #787878;
