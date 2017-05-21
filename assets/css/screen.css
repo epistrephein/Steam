@@ -120,25 +120,6 @@ article.preview p.readmore {
   font-weight: 400;
 }
 /* === Header === */
-#blog-logo {
-  display: block;
-  max-width: 100px;
-  margin: 50px auto 0;
-  text-align: center;
-}
-#blog-logo div.bloglogo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  -webkit-background-size: cover !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-color: #ffffff;
-}
-h1.blog-title,
-h2.blog-description {
-  text-align: left;
-}
 h1.blog-title {
   font-size: 50px;
   line-height: 52px;
