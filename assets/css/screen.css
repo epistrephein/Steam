@@ -396,41 +396,6 @@ a.archive-link {
   text-decoration: none;
 }
 /* === Extras === */
-.gist {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-collapse: collapse !important;
-}
-.gist .gist-file {
-  font-family: "Consolas", Courier, monospace;
-  border: 1px solid rgba(0, 0, 0, 0.05) !important;
-}
-.gist .gist-file .gist-meta {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif !important;
-  font-weight: 300 !important;
-  text-transform: uppercase !important;
-  display: none !important;
-  /* Hide GitHub attribution */
-}
-.gist .gist-file .gist-meta a:visited {
-  /*color: #33cc99 !important;*/
-}
-.gist .gist-file .gist-data {
-  background: #fdfdfd !important;
-  border-bottom: none !important;
-  /* Hide GitHub attribution */
-}
-.gist .gist-file .gist-data .line-numbers {
-  border-right: none !important;
-}
-.gist .gist-file .gist-data .line-numbers,
-.gist .gist-file .gist-meta {
-  background-color: rgba(0, 0, 0, 0.05) !important;
-}
-.gist .gist-file .gist-data .line-numbers,
-.gist .gist-file .gist-data .line-pre {
-  line-height: 1.2em !important;
-}
 .hidden {
   text-indent: -9999px;
   visibility: hidden;
