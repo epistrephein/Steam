@@ -3,14 +3,15 @@
 [![Ghost version](https://img.shields.io/badge/Ghost-v0.11.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
 [![Demo status](https://img.shields.io/website-online-offline-brightgreen-red/https/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](https://dev.epistrephe.in/steam/)
 
-Steam is a minimal and responsive theme for [Ghost](http://ghost.org/), largely based on [Vapor](https://github.com/sethlilly/Vapor) by Seth Lilly.
+[Steam](https://github.com/epistrephein/Steam) is a minimal and responsive theme for [Ghost](http://ghost.org/), forked from [Vapor](https://github.com/sethlilly/Vapor).
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
 See a live demo of Steam [here](https://dev.epistrephe.in/steam).
 
-## Installation
+[![Steam showcase](assets/screenshots/showcase-responsive.jpg)](https://dev.epistrephe.in/steam)
 
+## Installation
 #### Git - development release
 Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
 
