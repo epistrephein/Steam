@@ -526,15 +526,24 @@ sup {
   font-weight: bold;
 }
 
-ol.notes {
+// ol.notes {
+//   margin-top: 32px;
+//   margin-right: 30px;
+// }
+
+.footnotes {
+  border-top: 1px solid #ecf0f1;
   margin-top: 32px;
-  margin-right: 30px;
+  padding-top: 20px;
+  // margin-right: 30px;
 }
 
-ol.notes > li {
+.footnotes ol li,
+.footnotes ol li p {
   padding: -0.8em;
-  margin-left: -15px;
-  font-size: 12.5px;
+  // margin-left: -15px;
+  // font-size: 12.5px;
+  font-size: 0.85em;
   line-height: 20px;
 }
 
