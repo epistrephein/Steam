@@ -5,13 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    {{#is "home"}}
-        <title>{{meta_title}} - {{meta_description}}</title>
-    {{else}}
-        <title>{{meta_title}}</title>
-    {{/is}}
+    <title>{{meta_title}}</title>
 
-    <meta name="description" content="{{meta_description}}">
     <meta name="apple-mobile-web-app-title" content="{{meta_title}}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{asset "img/apple-touch-icon.png"}}">
