@@ -10,9 +10,6 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-tap-highlight-color: rgba(0,0,0,0); /* prevent grey link highlight in iOS */
 }
-body * {
-  max-height: 1000000em;
-}
 h1,
 h2,
 h3,
