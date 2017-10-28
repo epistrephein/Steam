@@ -90,7 +90,7 @@ kbd {
 }
 h1 {
   color: #151515;
-  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
@@ -113,7 +113,7 @@ article.preview {
   margin-bottom: 4em;
 }
 article.preview p.readmore {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin-top: 1em;
   text-transform: uppercase;
   font-weight: 400;
@@ -213,7 +213,7 @@ blockquote {
 }
 .post-meta {
   color: #95a5a6;
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 300;
   margin-top: 0.3em;
@@ -276,7 +276,7 @@ footer {
   text-align: center;
 }
 footer section {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
   font-size: 18px;
   margin: 0 auto;
