@@ -125,7 +125,16 @@ h1.blog-title {
   margin-top: 80px;
   margin-bottom: 5px;
   padding: 0;
+  text-align: left;
 }
+
+h1.blog-title a,
+h1.blog-title a:focus,
+h1.blog-title a:hover {
+  color: #151515;
+  text-decoration: none;
+}
+
 h1.blog-subtitle {
   font-size: 26px;
   line-height: 32px;
