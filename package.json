@@ -1,7 +1,34 @@
 {
-  "name": "Steam",
-  "version": "1.5.0",
-  "description": "A clean and minimal theme for Ghost.",
-  "author": "Tommaso Barbato",
-  "homepage": "https://github.com/epistrephein/Steam"
+    "name": "Steam",
+    "description": "A clean and minimal theme for Ghost.",
+    "homepage": "https://github.com/epistrephein/Steam",
+    "demo": "https://dev.epistrephe.in/Steam/",
+    "version": "2.0.0",
+    "author": {
+        "name": "Tommaso Barbato",
+        "email": "epistrephein@gmail.com",
+        "url": "https://github.com/epistrephein"
+    },
+    "engines": {
+        "ghost": ">=1.0.0"
+    },
+    "screenshots": {
+        "desktop": "assets/screenshots/screenshot-desktop.jpg",
+        "mobile": "assets/screenshots/screenshot-mobile.jpg"
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "minimal",
+        "responsive"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/epistrephein/Steam.git"
+    },
+    "bugs": "https://github.com/epistrephein/Steam/issues",
+    "license": "MIT",
+    "config": {
+        "posts_per_page": 5
+    }
 }
