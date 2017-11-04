@@ -4,8 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
-[Diff](https://github.com/epistrephein/Steam/compare/v1.5.0...master)
+## 2.0.0 - 2017-11-04
+[Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.0) |
+[Diff](https://github.com/epistrephein/Steam/compare/v1.5.0...v2.0.0)
+
+#### Added
+- Ready for Ghost v1.0+
 
 #### Changed
 - Change icon `tag` to `tags` in post footer
@@ -14,6 +18,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update CSS and JavaScript libraries to latest version
 - Update LICENSE to mention original author
 - Update CHANGELOG and move to [Keep a Changelog](http://keepachangelog.com/) format
+
+#### Removed
+- Remove link hover effect from blog title header
+
 
 ## 1.5.0 - 2016-05-22
 [Release](https://github.com/epistrephein/Steam/releases/tag/v1.5.0) |
@@ -29,6 +37,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 #### Fixed
 - Tags are no longer misaligned when navigation is active (fixes [#13](https://github.com/epistrephein/Steam/issues/13))
 
+
 ## 1.4 - 2015-09-27
 [Release](https://github.com/epistrephein/Steam/releases/tag/v1.4) |
 [Diff](https://github.com/epistrephein/Steam/compare/v1.3...v1.4)
@@ -42,6 +51,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 #### Fixed
 - Replaced hardcoded root domain `/` with `@blog.url` helper in blog footer (fixes [#6](https://github.com/epistrephein/Steam/issues/6))
+
 
 ## 1.3 - 2015-07-17
 [Release](https://github.com/epistrephein/Steam/releases/tag/v1.3) |
@@ -60,6 +70,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 #### Fixed
 - `<title>` displays blog title and description in the home and post title in the post page
+
 
 ## 1.2 - 2014-11-07
 [Release](https://github.com/epistrephein/Steam/releases/tag/v1.2) |
@@ -84,6 +95,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 #### Changed
 - Better handing of external javascript tools
 - Little tweaks in the style for a cleaner look
+
 
 ## 1.0 - 2014-10-13
 [Release](https://github.com/epistrephein/Steam/releases/tag/v1.0)
