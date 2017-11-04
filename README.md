@@ -1,7 +1,7 @@
 # Steam
 [![Steam release](https://img.shields.io/github/release/epistrephein/Steam.svg?style=flat-square)](https://github.com/epistrephein/Steam/releases/latest)
-[![Ghost version](https://img.shields.io/badge/Ghost-v0.11.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
-[![Demo status](https://img.shields.io/website-online-offline-brightgreen-red/https/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](https://dev.epistrephe.in/steam/)
+[![Ghost version](https://img.shields.io/badge/ghost-v1.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
+[![Demo status](https://img.shields.io/website-online-offline-brightgreen-red/https/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](https://dev.epistrephe.in/steam)
 
 [Steam](https://github.com/epistrephein/Steam) is a minimal and responsive theme for [Ghost](http://ghost.org/), forked from [Vapor](https://github.com/sethlilly/Vapor).
 
@@ -12,17 +12,9 @@ See a live demo of Steam [here](https://dev.epistrephe.in/steam).
 [![Steam showcase](assets/screenshots/showcase-responsive.jpg)](https://dev.epistrephe.in/steam)
 
 ## Installation
-#### Git - development release
-Just clone the repository in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
+Clone the repository in the `/content/themes` folder of Ghost or upload the latest release zip from the settings. Restart Ghost and choose Steam in the design pane.
 
     $ git clone https://github.com/epistrephein/Steam.git
-
-<h3 align="center">~~WARNING!~~</h3>
-<h4 align="center">Major release in progress, expect things in master to be broken.<br>Use latest release for stable version.</h4>
-
-#### Zip - stable release
-Download the [latest stable release](https://github.com/epistrephein/Steam/releases) of Steam and unzip it in the `/content/themes` folder of Ghost. Restart Ghost and choose Steam in the settings pane.
-
 
 ## Customization
 
@@ -62,17 +54,16 @@ To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `
 
 #### JavaScript
 ##### Smooth Scroll
-Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are at the bottom of `default.hbs`
+Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are in `js/steam.js`
 
-    <script>
-        smoothScroll.init({
-            speed: 800,
-            easing: 'easeInOutCubic',
-            updateURL: false,
-            offset: 125,
-        });
-    </script>
-
+```javascript
+smoothScroll.init({
+    speed: 800,
+    easing: 'easeInOutCubic',
+    updateURL: false,
+    offset: 125,
+});
+```
 
 To use Smooth Scroll for footnotes (like in this [example post](https://dev.epistrephe.in/steam/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
 
@@ -92,9 +83,11 @@ which is the actual body of the footnote and is linked to the link you add befor
 ##### highlight.js
 Steam also features [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line
 
-    <script>hljs.initHighlightingOnLoad();</script>
+```javascript
+hljs.initHighlightingOnLoad();
+```
 
-at the bottom of `default.hbs`.
+in `js/steam.js`
 
 You can force a code block into a specific language highlighting by appending the lang name, e.g.:
 
@@ -108,11 +101,9 @@ If you want to suppress the highlighting for a particular code block, you can us
     $ git clone https://github.com/epistrephein/Steam.git
     ```
 
-The css defining the colors is `assets/css/github.css`, which is a slighty modified version of [this style](https://github.com/isagalaev/highlight.js/blob/master/src/styles/github.css).
-
-
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/epistrephein/Steam.  
+Bug reports and pull requests are welcome on [GitHub](https://github.com/epistrephein/Steam).
+
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
