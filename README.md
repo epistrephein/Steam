@@ -54,7 +54,7 @@ To customize the favicon and/or apple-touch-icon of your blog place your 16x16 `
 
 #### JavaScript
 ##### Smooth Scroll
-Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll): the default settings are in `js/steam.js`
+Steam features [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) for nice scrolling animations. The default settings are in `js/steam.js`
 
 ```javascript
 smoothScroll.init({
@@ -65,20 +65,13 @@ smoothScroll.init({
 });
 ```
 
-To use Smooth Scroll for footnotes (like in this [example post](https://dev.epistrephe.in/steam/welcome-to-ghost/)), first locate the word or sentence in edit mode where you want to put the link to the footnote (generally a number of an ascending order) and add the following code
+Smooth Scroll is automatically injected in footnotes refs and backrefs when created via their markdown syntax.
 
-    <sup id="reference1"><a data-scroll href="#footnote1">1</a></sup>
+```md
+This is the body of the post with a footnote ref[ˆ1] somewhere.
 
-where `reference1` is the unique name of the footnote link, `footnote1` is the unique name of the footnote itself and `1` the number of the note. Don't forget to add `data-scroll` if you want to benefit of the Smooth Scroll functionality. Do this for every footnote link you want to add, increasing the number of each identifier.
-
-Next, at the end of the post insert
-
-    ---
-    <ol class="notes">
-    <li id="footnote1">Here is the notation that the sentence above leads up to. <a data-scroll href="#reference1">↩</a></li>
-    </ol>
-
-which is the actual body of the footnote and is linked to the link you add before. Make sure `footnote1` and `reference1` match the link that calls them. Insert as many `<li>` tags as your footnote links and don't forget to add `data-scroll` or Smooth Scroll won't work.
+[^1]: End of the post with the footnote text.
+```
 
 ##### highlight.js
 Steam also features [highlight.js](https://highlightjs.org) for syntax highlighting: you can disable it by removing the line
