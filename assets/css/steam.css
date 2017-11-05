@@ -528,39 +528,27 @@ a.backtotoptext {
   text-decoration: none;
 }
 
-sup {
-  padding-left: 1px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-// ol.notes {
-//   margin-top: 32px;
-//   margin-right: 30px;
-// }
-
-.footnotes {
-  border-top: 1px solid #ecf0f1;
-  margin-top: 32px;
-  padding-top: 20px;
-  // margin-right: 30px;
-}
-
-.footnotes ol li,
-.footnotes ol li p {
-  padding: -0.8em;
-  // margin-left: -15px;
-  // font-size: 12.5px;
-  font-size: 0.85em;
-  line-height: 20px;
-}
-
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
   border: 0;
   height: 1px;
   background-color: #888;
+}
+
+hr.footnotes-sep {
+  height: 0;
+  border-top: 1px solid #ecf0f1;
+}
+
+ol.footnotes-list {
+  padding-left: 1em;
+}
+
+ol.footnotes-list li,
+ol.footnotes-list li p {
+  font-size: 0.85em;
+  line-height: 20px;
 }
 
 .site-footer {
