@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 #### Fixed
 - Markdown syntax for footnotes is now properly working
+- Links with `target="_blank"` have now `rel="noopener"` to prevent malicious endpoints
 
 ## 2.0.0 - 2017-11-04
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.0) |
