@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+[Diff](https://github.com/epistrephein/Steam/compare/v2.0.0...master)
+
+#### Changed
+- Social accounts defined in Ghost general settings are now displayed automatically in the footer
+
+#### Fixed
+- Markdown syntax for footnotes is now properly working
+
 ## 2.0.0 - 2017-11-04
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.0) |
 [Diff](https://github.com/epistrephein/Steam/compare/v1.5.0...v2.0.0)
