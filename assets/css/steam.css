@@ -558,6 +558,7 @@ ol.footnotes-list li p {
 section.footer-social {
   margin-bottom: 23px;
   font-size: 17px;
+  letter-spacing: 5px;
 }
 
 section.post-content {
