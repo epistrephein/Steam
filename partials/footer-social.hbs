@@ -1,9 +1,9 @@
 <section class="footer-social">
     {{#if @blog.facebook}}
-        <a href="{{facebook_url}}" target="_blank" title="Facebook"><i class="fa fa-2x fa-fw fa-facebook"></i> <span class="hidden">Facebook</span></a>
+        <a href="{{facebook_url}}" target="_blank" rel="noopener" title="Facebook"><i class="fa fa-2x fa-fw fa-facebook"></i> <span class="hidden">Facebook</span></a>
     {{/if}}
     {{#if @blog.twitter}}
-        <a href="{{twitter_url}}" target="_blank" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>
+        <a href="{{twitter_url}}" target="_blank" rel="noopener" title="Twitter"><i class="fa fa-2x fa-fw fa-twitter"></i> <span class="hidden">Twitter</span></a>
     {{/if}}
-    <a href="{{@blog.url}}/rss/" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
+    <a href="{{@blog.url}}/rss/" target="_blank" rel="noopener" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
 </section>
