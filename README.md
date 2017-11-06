@@ -25,9 +25,13 @@ To switch to another theme color, first replace `{{> theme-green}}` with `{{!> t
 To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` in `partials/theme-customcolor.hbs` with the colors you prefer.
 
 #### Customize the social icons
-Change the given `a href` addresses in `partials/footer-social.hbs` or replace the icons with the ones you prefer using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a Facebook icon add
+Facebook and Twitter icons in the footer are automatically displayed if defined in the general settings of Ghost.
 
-    <a href="https://www.facebook.com/username" target="_blank" title="Facebook"><i class="fa fa-2x fa-fw fa-facebook"></i> <span class="hidden">Facebook</span></a>
+If you want to add custom icons and links, duplicate any of them outside of the conditional tags and replace the url and the icon using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a GitHub icon
+
+```html
+<a href="https://github.com/username" target="_blank" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>
+```
 
 If you don't want the social icons section, replace `{{> footer-social}}` with `{{!> footer-social}}` in `default.hbs`.
 
