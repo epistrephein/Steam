@@ -43,9 +43,7 @@ To remove it, replace `{{> footer-author}}` with `{{!> footer-author}}` in `defa
 If you don't want to show the author section (which is profile picture, bio, website and location) at the bottom of posts, replace `{{> post-author}}` with `{{!> post-author}}` in `post.hbs`.
 
 #### Activate the comments
-Replace `{{!> comments-disqus}}` with `{{> comments-disqus}}`, `{{!> comments-facebook}}` with `{{> comments-facebook}}` or `{{!> comments-google-plus}}` with `{{> comments-google-plus}}` in the `post.hbs` file.
-
-To enable Disqus comments, remember to add your actual Disqus ID in `partials/comments-disqus.hbs`.
+Replace `{{!> disqus}}` with `{{> disqus}}` in `post.hbs`, then add your Disqus ID in `partials/disqus.hbs`.
 
 #### Add Twitter, Google Webmaster and Facebook meta
 Replace `{{!> meta}}` with `{{> meta}}` in `default.hbs`, then customize the content of `partials/meta.hbs`.
