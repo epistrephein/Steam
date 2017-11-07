@@ -27,7 +27,7 @@ To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> them
 #### Customize the social icons
 Facebook and Twitter icons in the footer are automatically displayed if defined in the general settings of Ghost.
 
-If you want to add custom icons and links, duplicate any of them outside of the conditional tags and replace the url and the icon using the [Font Awesome list](http://fortawesome.github.io/Font-Awesome/icons/), e.g. to add a GitHub icon
+If you want to add custom icons and links, duplicate any of them outside of the conditional tags and replace the url and the icon using the [Font Awesome list](http://fontawesome.io/icons/), e.g. to add a GitHub icon
 
 ```html
 <a href="https://github.com/username" target="_blank" rel="noopener" title="GitHub"><i class="fa fa-2x fa-fw fa-github"></i> <span class="hidden">GitHub</span></a>
