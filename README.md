@@ -18,11 +18,17 @@ Clone the repository in the `/content/themes` folder of Ghost or upload the late
 
 ## Customization
 
-#### Choose a theme color
-By default Steam uses a flat green theme color.
-To switch to another theme color, first replace `{{> theme-green}}` with `{{!> theme-green}}` in `default.hbs`, then choose your desired color among those available: i.e. to activate the orange theme replace `{{!> theme-orange}}` with `{{> theme-orange}}`.
+#### Change the theme color
+By default Steam uses a flat green theme color. The css for the colors are in a separate partial for easy customization: just edit `partials/theme-colors.hbs`, replacing `#33cc99` with your light shade and `#178b6b` with your dark shade.
 
-To use a custom color, replace instead `{{!> theme-customcolor}}` with `{{> theme-customcolor}}` and change the three occurrences of `#111111` and `#000000` in `partials/theme-customcolor.hbs` with the colors you prefer.
+Previous versions of Steam included premade colors partials that could just be turned on and off. These have since been removed for simplicity, so here are the values that were used if you want to keep your colors the way they were.
+
+| Color  | Light     | Dark      |
+|--------|-----------|-----------|
+| Green  | `#33cc99` | `#178b6b` |
+| Blue   | `#3498db` | `#2079b4` |
+| Orange | `#ff9d00` | `#d88500` |
+| Red    | `#f05948` | `#c62310` |
 
 #### Customize the social icons
 Facebook and Twitter icons in the footer are automatically displayed if defined in the general settings of Ghost.
