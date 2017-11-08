@@ -22,15 +22,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Ready for Ghost v1.0+
 
 #### Changed
-- Change icon `tag` to `tags` in post footer
+- Changed icon `tag` to `tags` in post footer
 - Show navigation only if active in blog settings
-- Update head meta tags to latest standards
-- Update CSS and JavaScript libraries to latest version
-- Update LICENSE to mention original author
-- Update CHANGELOG and move to [Keep a Changelog](http://keepachangelog.com/) format
+- Updated head meta tags to latest standards
+- Updated CSS and JavaScript libraries to latest version
+- Updated LICENSE to mention original author
+- Updated CHANGELOG and moved to [Keep a Changelog](http://keepachangelog.com/) format
 
 #### Removed
-- Remove link hover effect from blog title header
+- Removed link hover effect from blog title header
 
 
 ## 1.5.0 - 2016-05-22
