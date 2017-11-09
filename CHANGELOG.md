@@ -4,15 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
-[Diff](https://github.com/epistrephein/Steam/compare/v2.0.0...master)
+## 2.0.1 - 2017-11-09
+[Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.1) |
+[Diff](https://github.com/epistrephein/Steam/compare/v2.0.0...v2.0.1)
+
+#### Fixed
+- Fixed theme name in `package.json`
+- Markdown syntax for footnotes is now properly working
+- Links with `target="_blank"` have now `rel="noopener"` to prevent malicious endpoints
 
 #### Changed
 - Social accounts defined in Ghost general settings are now displayed automatically in the footer
-
-#### Fixed
-- Markdown syntax for footnotes is now properly working
-- Links with `target="_blank"` have now `rel="noopener"` to prevent malicious endpoints
+- Renamed `theme-green.hbs` to `theme-colors.hbs` for clarity
+- Updated README with latest behavior
 
 ## 2.0.0 - 2017-11-04
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.0) |
