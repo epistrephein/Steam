@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+[Diff](https://github.com/epistrephein/Steam/compare/v2.0.1...master)
+
+#### Changed
+- Reduced border-left size of blockquote
+
 ## 2.0.1 - 2017-11-09
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.1) |
 [Diff](https://github.com/epistrephein/Steam/compare/v2.0.0...v2.0.1)
