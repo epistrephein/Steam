@@ -88,6 +88,9 @@ kbd {
       0 1px 0 rgba(0, 0, 0, 0.2),
       0 1px 0 0 #fff inset;
 }
+mark {
+  background-color: #fff0ba;
+}
 h1 {
   color: #151515;
   font-family: "Roboto Slab", serif;

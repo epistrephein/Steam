@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [Diff](https://github.com/epistrephein/Steam/compare/v2.0.1...master)
 
 #### Changed
-- Reduced border-left size of blockquote
+- Use a flat yellow color for marked text
+- Reduce border-left size of blockquote
 
 ## 2.0.1 - 2017-11-09
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.1) |
