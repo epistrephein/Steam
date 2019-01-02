@@ -1,13 +1,13 @@
 <section class="author">
-    {{#if author.profile_image}}
-        <div class="authorimage" style="background: url({{author.profile_image}})"></div>
+    {{#if primary_author.profile_image}}
+        <div class="authorimage" style="background: url({{primary_author.profile_image}})"></div>
     {{else}}
         <div class="authorimage" style="background: url({{asset "img/default-avatar.png"}})"></div>
     {{/if}}
-    <h4 class="author-name">{{author.name}}</h4>
-    <p class="bio">{{author.bio}}</p>
+    <h4 class="author-name">{{primary_author.name}}</h4>
+    <p class="bio">{{primary_author.bio}}</p>
     <p class="meta">
-      {{#if author.website}}<i class="fa fa-fw fa-globe"></i> <a href="{{author.website}}" target="_blank" rel="noopener">{{author.website}}</a><br>{{/if}}
-      {{#if author.location}}<i class="fa fa-fw fa-map-marker"></i> {{author.location}}{{/if}}
+      {{#if primary_author.website}}<i class="fa fa-fw fa-globe"></i> <a href="{{primary_author.website}}" target="_blank" rel="noopener">{{primary_author.website}}</a><br>{{/if}}
+      {{#if primary_author.location}}<i class="fa fa-fw fa-map-marker"></i> {{primary_author.location}}{{/if}}
     </p>
 </section>

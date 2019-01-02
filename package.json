@@ -10,7 +10,7 @@
         "url": "https://github.com/epistrephein"
     },
     "engines": {
-        "ghost": ">=1.0.0"
+        "ghost": ">=2.1.0"
     },
     "screenshots": {
         "desktop": "assets/screenshots/screenshot-desktop.jpg",
@@ -19,6 +19,7 @@
     "keywords": [
         "ghost",
         "theme",
+        "ghost-theme",
         "minimal",
         "responsive"
     ],
