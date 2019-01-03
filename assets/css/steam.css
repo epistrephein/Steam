@@ -279,6 +279,18 @@ img.userimage {
   margin-right: 10px;
   float: left;
 }
+/* Image size options */
+section.post-content .kg-width-wide img {
+}
+section.post-content .kg-width-full img {
+}
+/* Image Gallery Card */
+.kg-gallery-container {
+}
+.kg-gallery-row {
+}
+.kg-gallery-image {
+}
 /* === Footer === */
 footer {
   background: rgba(0, 0, 0, 0.05);
