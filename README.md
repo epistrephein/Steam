@@ -12,7 +12,7 @@ See a live demo of Steam [here](https://dev.epistrephe.in/steam).
 [![Steam showcase](assets/screenshots/showcase-responsive.jpg)](https://dev.epistrephe.in/steam)
 
 ## Installation
-Clone the repository in the `/content/themes` folder of Ghost or upload the latest release zip from the settings. Restart Ghost and choose Steam in the design pane.
+Clone the repository in the `/content/themes` folder of Ghost or upload the [latest release zip](https://github.com/epistrephein/Steam/releases/latest) from the settings. Restart Ghost and choose Steam in the design pane.
 
     $ git clone https://github.com/epistrephein/Steam.git
 
